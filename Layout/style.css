@@ -1,0 +1,34 @@
+/* css reset for default size of brosers */
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+P{
+    border: 2px solid yellow;
+    padding: 5px 10px 15px 20px;
+    /* padding top right buttom left */
+    /* padding (top,buttom)px (left,right)px */
+    margin: 20px;
+  
+}
+
+.box
+{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 10px solid orange;
+    background-color: chocolate;
+    padding: 50px;
+    /* این پراپرتی سایز رو در اندازه واقعی نگه میدارع سایز پدینگ و بوردر روش تاثیر نداره */
+    box-sizing: border-box;
+    /* این المنت چون ذاتا به صورت بلاک هست کل سطر رو میگیره اگه بخوایم که اینو تغیر بدیم از پراپرای زیر استفاده میکنیم  ولی دیگه ظول و عرض نمیگیره */
+    /* display: inline; */
+    /* ولی اینیکی هم کنار هم میفتن و هم سایزو قبول مینه */
+    display: inline-block;
+}
