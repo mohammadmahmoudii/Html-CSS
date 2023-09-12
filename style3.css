@@ -1,0 +1,20 @@
+/* Poseudo elements */
+
+
+
+p::after{
+    content: "... This is a after content";
+    text-decoration: line-through;
+    color: blue;
+}
+
+
+p::before{
+    content: "... This is a befoor content";
+    text-decoration: underline;
+    color: blue;
+}
+
+p:hover{
+    color: gold;
+}

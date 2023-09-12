@@ -1,0 +1,59 @@
+/* Poseudo class */
+
+
+/* .products :last-child{
+    color: chartreuse;
+}
+
+.products :first-child{
+    color: blue;
+} */
+
+
+/* .products :first-of-type{
+    color: cornflowerblue;
+} */
+
+/* میاد بچه های زوج این لیست رو می گیره */
+/* ul :nth-child(even){
+    color: crimson;
+    background-color: bisque;
+} */
+
+/* میاد بچه های فرد این لیست رو می گیره */
+/* ul :nth-child(odd){
+    color: crimson;
+    background-color: bisque;
+} */
+
+
+/* میاد بچه های فرد این لیست رو می گیره */
+/* ul :nth-child(2n+1){  => 3n=>4n mazrab haye moktalefam migire
+    color: crimson;
+    background-color: bisque;
+} */
+
+/* میاد بچه های زوج این لیست رو می گیره */
+/* ul :nth-child(2n){
+    color: crimson;
+    background-color: bisque;
+} */
+
+/* a:hover{
+    color: red;
+}
+*/
+
+/* a:visited{
+    color: chartreuse;
+} */
+
+/* h2:hover{
+    color: red;
+    cursor: pointer;
+}  */
+
+/* زمانی که با تب میریم روش و فکوس به این المنت میرسه */
+/* a:focus{
+    color: green;
+} */
