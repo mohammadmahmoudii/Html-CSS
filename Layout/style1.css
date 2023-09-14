@@ -1,0 +1,27 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+html{
+    font-size: 62.5%;
+    /* 62.5*16=10px */
+    /* ینی هر رم میشه 10 پیکس برا کل صفحه */
+}
+body
+{
+    background-color: #e4cbcb;
+    height: 100vh;
+}
+.box
+{
+    font-size: 2.3rem;
+    /* اینجا فونت میشه 23 پیکسل */
+    height: 50%;
+    width: 100rem;
+    background-color: gold;
+}
