@@ -1,0 +1,30 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+html{
+    font-size: 62.5%;
+    /* 62.5*16=10px */
+    /* ینی هر رم میشه 10 پیکس برا کل صفحه */
+}
+.box
+{
+    background-color: gold;
+    height: 200px;
+    width: 200px;
+    font-size: 3.5rem;
+    overflow: scroll;
+}
+
+p{font-size: 2.3rem;
+border: 2px solid red;
+/* برای اینکه باقی متن رو به ص.رت 3 نقظه نشون بده 3 خط زیر الزامی است */
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}

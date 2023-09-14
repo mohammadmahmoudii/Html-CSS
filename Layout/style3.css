@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body
+{
+    height: 1000vh;
+}
+
+.box
+{
+    border: 2px solid red;
+    /* position: relative; */
+}
+.item
+{
+    width: 100px;
+    height:  100px;
+}
+.item-one{
+    background-color: orange;
+}
+
+
+
+ /* این پوزیشن نصبت به المنت های کناری جابجا میشه و به پراپرتی های راست و چپ و بالا و پایین دسترسی داریم */
+
+/* .item-tow
+{
+    position: relative;
+    top: 20px;
+    left: 500px;
+    background-color: red;
+}  */
+
+
+
+/* این پوزیشن نصبت اولین تگ پدری که پوزیشن رلیتیو دارد تغیر میکند و انگار کلا از جای خودش جدا میشه  */
+/* .item-tow
+{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    
+    background-color: red;
+} */
+
+/* کلا توجایی که بهش میدیم فیکس میمونه */
+/* .item-tow
+{
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    width: 100%;
+    background-color: red;
+} */
+
+
+
+.item-tow
+{
+    position: sticky;
+    top: 0;
+
+    width: 100%;
+    background-color: red;
+}
+
+
+.item-tree
+{
+    background-color: violet;
+}
