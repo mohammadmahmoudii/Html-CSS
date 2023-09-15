@@ -1,0 +1,64 @@
+.items
+{
+    height: 500px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: flex-start;
+    /* align-content: center; */
+}
+.item
+{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    /* flex-direction: row => width / flex-direction: column=> hight  */
+    flex-basis: 100px; 
+    background-color: tomato;
+}
+
+
+.item-one
+{
+    flex-grow:5;
+  
+}
+.item-tow
+{
+    flex-grow: 1
+}
+
+.item-tree
+{
+background-color: violet;
+}
+
+.body
+{
+    background-color: #c4a5a5;
+    height: 200px;
+    width: 800px;
+}
+.top
+{
+    background-color: yellow;
+    width: 800px;
+    height: 200px;
+}
+.buttom
+{
+    display: flex;
+}
+.left
+{
+    background-color: chocolate;
+    width: 300px;
+    height: 100px;
+}
+.right
+{
+    background-color: blueviolet;
+    width: 500px;
+    height: 100px;
+}
