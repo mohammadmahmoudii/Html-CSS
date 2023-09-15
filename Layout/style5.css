@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body
+{
+    height: 200vh;
+}
+.container
+{
+    display: grid;
+    width: 80%;
+    height: 500px;
+    background-color: rgb(240, 229, 250);
+    /*   میتونیم  درصد بگیم که بر اساس پدرش تعیین میشه   */
+    /*  اما اگه که ما 3 تا ستون داشته باشیم اولی رو با پیکسل مقدار ثابت بدیم و دوتا دیگرو درصد. درصد میاد از گل بقاشو قرار میده و اسکرول افقی می خوره که خیلی بده */
+    /*  بدبم دیگه اینجوری نمیشه و اسکروا افقی نداریمfrولی اگه که */
+    
+    /* grid-template-columns: 150px 150px ;
+    grid-template-rows: 150px 150px; */
+    /* ****************************************** */
+    /* grid-template-columns: 50fr 20fr ;
+    grid-template-rows: 200px 200px; */
+    /* ************************************************ */
+    grid-template-columns: repeat(2,150px);
+    grid-template-rows: repeat(2,150px);
+    grid-gap: 5px;
+    /* ******************************************** */
+    /* این دوتا محتوای مارو توی صفحه به صورت عمودی و افقی جابجا می کنند  اولی عمودی  دومی افقی */
+    align-content: center;
+    justify-content: center;
+    /* این دوتا محتوای مارو داخل خود خونه های پرید جابجا میکنن اولی اولی افقی دومی عمودی */
+    justify-items: center;
+    align-items: center;
+}
+.box
+{
+    height: 100px;
+    width: 90%;
+    background-color: orange;
+}
