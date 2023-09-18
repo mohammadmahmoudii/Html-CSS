@@ -1,0 +1,36 @@
+/* image /css sprites gnerators =>https://cssspritestool.com/ */
+
+.bgbasketball
+{
+background:url('../assets//images/css-sprite-combined.2.png') 0px -0px;
+width:512px;height:512px;
+display:inline-block;
+}
+
+.bgfolder1
+{
+background:url('../assets//images/css-sprite-combined.2.png') -512px -0px;
+width:512px;height:512px;
+display:inline-block;
+}
+
+.bgfolder
+{
+background:url('../assets//images/css-sprite-combined.2.png') -1024px -0px;
+width:512px;height:512px;
+display:inline-block;
+}
+
+.bgruler
+{
+background:url('../assets//images/css-sprite-combined.2.png') -1536px -0px;
+width:512px;height:512px;
+display:inline-block;
+}
+
+.bgpencil
+{
+background:url('../assets//images/css-sprite-combined.2.png') -2048px -0px;
+width:512px;height:512px;
+display:inline-block;
+}
