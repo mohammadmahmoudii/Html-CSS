@@ -1,0 +1,23 @@
+
+:root{
+    --bgcolor:#333123;
+    --bgcolor2:#e7d129;
+    --border-r:35px
+}
+
+
+.box
+{
+    height: 200px;
+    width: 200px;
+    background-color: var(--bgcolor);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.box2
+{
+    height: 200px;
+    width: 200px;
+    background-color: var(--bgcolor2);
+    border-radius: var(--border-r);
+}
